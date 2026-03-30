@@ -90,3 +90,34 @@ section {
 h1, h2, h3 {
   color: var(--or);
 }
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 100px 60px;
+  background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+  border-bottom: 2px solid var(--or);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: var(--blanc);
+}
+
+/* ===== PRÉSENTATION ===== */
+.presentation {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.presentation h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
